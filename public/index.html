@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Donut Bingo</title>
+
+    <meta name="viewport" content="user-scalable=no, width=device-width">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://api.bistri.com/bistri.conference.min.js"></script>
+    <script type="text/javascript" src="js/webcam.js"></script>
+
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <script src="js/jquery.js" type="text/javascript"></script>
+
+    <script src="js/jquery.tappable.js" type="text/javascript"></script>
+
+    <script src="js/data.js" type="text/javascript"></script>
+
+    <script src="js/script.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="header">
+            <h1> Donut Bingo </h1>
+        </div>
+        <div class="content">
+            <div class="col">
+                <div id="board"></div>
+            </div>
+            <div class="col">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TpQVtabQhlQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="pane" id="pane_0">
+                    Please wait while conference is loading
+                </div>
+                <div class="wrapper">
+                    <div class="pane" id="pane_1" style="display: none">
+                        <input type="button" value="Join call" id="join" class="btn btn-info btn-default btn-block">
+                    </div>
+
+                    <div class="pane" id="pane_2" style="display: none">
+                        <div id="video_container"></div>
+                        <ul>
+                            <li><input type="button" value="Leave" id="quit" class="btn btn-danger btn-default btn-block"></li>
+                            <li><input type="button" value="Unmute" id="unmute" class="btn btn-danger btn-default btn-block"></li>
+                            <li><input type="button" value="Mute" id="mute" class="btn btn-danger btn-default btn-block"></li>
+                            <li><input type="button" value="Mute Everyone" id="muteAll" class="btn btn-danger btn-default btn-block"></li>
+                            <li><input type="button" value="Disable Video" id="muteVideo" class="btn btn-danger btn-default btn-block"></li>
+                            <li><input type="button" value="Enable Video" id="unmuteVideo" class="btn btn-danger btn-default btn-block"></li>
+                            <ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
