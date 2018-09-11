@@ -1,15 +1,16 @@
 {
-  "name": "donut",
-  "version": "1.0.0",
-  "description": "Bingo game ",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "ph8tel",
-  "license": "ISC",
-  "dependencies": {
-    "ejs": "^2.6.1",
-    "express": "^4.16.3"
-  }
+    "name": "donut",
+    "version": "1.0.0",
+    "description": "Bingo game ",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "ph8tel",
+    "license": "ISC",
+    "dependencies": {
+        "ejs": "^2.6.1",
+        "express": "^4.16.3"
+    }
 }
