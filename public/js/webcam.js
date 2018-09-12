@@ -21,12 +21,15 @@ onBistriConferenceReady = () => {
 
     // initialize API client with application keys
     // these are my personal keys
-    bc.init({
-        "appId": "1a2b3fbe",
-        "appKey": "12b15c2e10a9a6131c749ba55da50ad3",
-        "debug": true
+    // bc.init({
+    //     "appId": "1a2b3fbe",
+    //     "appKey": "12b15c2e10a9a6131c749ba55da50ad3",
+    //     "debug": true
+    // });
+    BistriConference.init({
+        appId: "1a2b3fbe",
+        appKey: "12b15c2e10a9a6131c749ba55da50ad3"
     });
-
     /* Set events handler */
 
     // when local user is connected to the server
